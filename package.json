@@ -2,7 +2,14 @@
     "name": "node-red-smart-door-bell",
     "description": "Ein Node-RED-Projekt",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-moment": "3.0.3",
+        "node-red-contrib-play-audio": "2.4.0",
+        "node-red-dashboard": "2.19.3",
+        "node-red-node-base64": "0.2.0",
+        "node-red-node-email": "1.7.6",
+        "node-red-node-random": "0.1.4"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
